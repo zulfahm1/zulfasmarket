@@ -1,0 +1,243 @@
+
+/* CSS RESSET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY STYLE */
+
+body{
+    display: block;
+    width: 100%;
+    height: 680px;
+    background: linear-gradient(127.07deg, #DA00D1 -4.53%, #7F00D4 54.31%, #1100D8 109.43%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(92.26deg, #312EE4 -2.39%, #A901AC 53.08%, #CB01CE 103.05%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a{
+    text-decoration: none;
+    position: absolute;
+    height: 44px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.navbar .a1{
+    left: 80px;
+    top: 16px;
+    width: 255px;
+    font-weight: bold;
+}
+
+.navbar .a2{
+    right: 330px;
+    padding-top: 16px;
+    width: 250px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.navbar .a3{
+    right: 80px;
+    padding-top: 16px;
+    width: 250px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.navbar .a2:hover, .navbar .a3:hover{
+    color: black;
+    background-color: white;
+    height: 44px;
+}
+
+.judul{
+    position: absolute;
+    width: 100%;
+    height: 78px;
+    top: 100px;
+    text-align: center;
+}
+
+.judul .jdt{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.28);
+}
+
+.main{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    top: 200px;
+}
+
+.main .card1{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(110.27deg, #FF0059 -2.08%, #AF2153 102.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    left: 26px;
+}
+
+.main .card2{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(110.27deg, #FF0059 -2.08%, #AF2153 102.66%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    right: 26px;
+}
+
+.main label{
+    display: inline-block;
+    width: 100%;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.28);
+    margin-top: 6%;
+}
+
+.main input[type=number]{
+    width: 86%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: 3px solid white;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main input[type="number"]:focus{
+    border: 3px solid skyblue;
+}
+
+.main input[type=submit]{
+    width: 86%;
+    background-color: #35e300;
+    color: black;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 20px;
+    margin: 8px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main input[type="submit"]:hover{
+    color: white;
+    background-color: #259f6c;
+}
+
+.main .material-icons{
+    font-size: 126px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.28);
+}
+
+.pcard{
+    color: white;
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 680px;
+    background: linear-gradient(92.26deg, #312EE4 -2.39%, #A901AC 53.08%, #CB01CE 103.05%);
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.footer p{
+    position: absolute;
+    padding-top: 16px;
+    width: 100%;
+    height: 44px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.footer .material-icons{
+    font-size: 16px;
+    color: salmon;
+}
